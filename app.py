@@ -14,7 +14,7 @@ from langchain.callbacks import get_openai_callback
 def main():
     load_dotenv()
     st.set_page_config(page_title="Ask your PDF")
-    st.header("ChatPDF")
+    st.header("TenderGPT")
 
     # Input your API key
     user_secret = st.text_input(
@@ -70,14 +70,14 @@ def main():
                 response = chain.run(input_documents=docs,
                                      question=user_question)
 
-        # if the user has entered a question, show button
-        if st.button(label="Enter", type='primary'):
-            with get_openai_callback() as cb:
-                response = chain.run(input_documents=docs,
-                                     question=user_question)
+            # if the user has entered a question, show button
+            if st.button(label="Enter", type='primary'):
+                with get_openai_callback() as cb:
+                    response = chain.run(input_documents=docs,
+                                         question=user_question)
 
             # show the response
-            st.write(response)
+            st.write(response, cb)
 
 
 if __name__ == '__main__':
