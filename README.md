@@ -36,7 +36,7 @@ TenderGPT is a user-friendly tool that allows users to ask questions about a PDF
 To use TenderGPT, make sure you have all the required dependencies installed, and simply run the main script:
 
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 This will launch the Streamlit web application, and you can interact with it through your web browser.
