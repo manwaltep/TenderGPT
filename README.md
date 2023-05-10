@@ -1,7 +1,5 @@
 # TenderGPT
 
-# TenderGPT README
-
 ## Overview
 
 TenderGPT is a user-friendly tool that allows users to ask questions about a PDF document and get relevant answers using OpenAI's GPT models. It uses OpenAI's API and a number of libraries, including Streamlit, to build an interactive web application.
