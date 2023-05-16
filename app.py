@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import openai as OpenAI  # Add this import
 import tiktoken
 import streamlit as st
