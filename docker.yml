@@ -3,4 +3,4 @@ services:
   TenderGPT:
     build: .
     ports:
-      - "4000:80"
+      - "8501:8501"
