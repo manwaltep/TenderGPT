@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Name of the image
-IMAGE_NAME="TenderGPT"
+IMAGE_NAME="tendergpt"
 
 # Build the Docker image
 docker build -t $IMAGE_NAME .
