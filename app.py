@@ -1,4 +1,4 @@
-import openai as OpenAI  # Add this import
+import openai # Add this import
 from dotenv import load_dotenv
 import tiktoken
 import streamlit as st
