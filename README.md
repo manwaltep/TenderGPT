@@ -31,7 +31,7 @@ TenderGPT is a user-friendly tool that allows users to ask questions about a PDF
   - chat_models
   - callbacks
 
-## Usage
+## Running TenderGPT Locally
 
 To use TenderGPT, make sure you have all the required dependencies installed, and simply run the main script:
 
